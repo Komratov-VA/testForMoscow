@@ -1,0 +1,16 @@
+{
+  "request": {
+    "url": "/score",
+    "method": "POST",
+    "bodyPatterns" : [ {
+      "equalToJson" : "{\"clientName\": \"ИВАН ПЕТРОВИЧ ВАСИЛЬЕВ\", \"contractDate\": \"2018-01-01\"}"
+    } ]
+  },
+  "response": {
+    "status": 200,
+    "body": "{\"status\": \"COMPLETED\",\"scoringValue\": 0}",
+    "headers": {
+      "Content-Type": "application/json"
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "request": {
+    "url": "/score",
+    "method": "POST",
+    "bodyPatterns" : [ {
+      "equalToJson" : "{\"clientName\": \"ИГОРЬ МАКСИМОВИЧ ПАВЛОВ\", \"contractDate\": \"2015-01-08\"}"
+    } ]
+  },
+  "response": {
+    "status": 200,
+    "body": "{\"status\": \"COMPLETED\",\"scoringValue\": 2}",
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "fixedDelayMilliseconds" : 2500
+  }
+}

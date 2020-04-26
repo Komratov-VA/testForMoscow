@@ -1,0 +1,17 @@
+{
+  "request": {
+    "url": "/score",
+    "method": "POST",
+    "bodyPatterns" : [ {
+      "equalToJson" : "{\"clientName\": \"АНДРЕЙ ПАВЛОВИЧ КУКСЕНКО\", \"contractDate\": \"2018-07-02\"}"
+    } ]
+  },
+  "response": {
+    "status": 200,
+    "body": "{\"status\": \"COMPLETED\",\"scoringValue\": 3}",
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "fixedDelayMilliseconds" : 7000
+  }
+}

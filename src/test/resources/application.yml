@@ -1,0 +1,16 @@
+external:
+    ribbon:
+        ReadTimeout: 50000
+        listOfServers: localhost:8081
+
+spring:
+    main:
+        allow-bean-definition-overriding: true
+
+hystrix:
+    command:
+        default:
+            execution:
+                isolation:
+                    thread:
+                        timeoutInMilliseconds: 4000

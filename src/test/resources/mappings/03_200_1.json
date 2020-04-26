@@ -1,0 +1,17 @@
+{
+  "request": {
+    "url": "/score",
+    "method": "POST",
+    "bodyPatterns" : [ {
+      "equalToJson" : "{\"clientName\": \"АЛЕКСЕЙ СЕРГЕЕВИЧ МАРТЫНОВ\", \"contractDate\": \"2011-11-11\"}"
+    } ]
+  },
+  "response": {
+    "status": 200,
+    "body": "{\"status\": \"COMPLETED\",\"scoringValue\": 1}",
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "fixedDelayMilliseconds" : 7000
+  }
+}

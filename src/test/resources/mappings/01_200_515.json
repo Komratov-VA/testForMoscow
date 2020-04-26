@@ -1,0 +1,16 @@
+{
+  "request": {
+    "url": "/score",
+    "method": "POST",
+    "bodyPatterns" : [ {
+      "equalToJson" : "{\"clientName\": \"ВАСИЛИЙ ИВАНОВИЧ КУЗНЕЦОВ\", \"contractDate\": \"2019-02-19\"}"
+    } ]
+  },
+  "response": {
+    "status": 200,
+    "body": "{\"status\": \"COMPLETED\",\"scoringValue\": 515.1}",
+    "headers": {
+      "Content-Type": "application/json"
+    }
+  }
+}

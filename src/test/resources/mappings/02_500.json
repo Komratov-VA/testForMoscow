@@ -1,0 +1,16 @@
+{
+  "request": {
+    "url": "/score",
+    "method": "POST",
+    "bodyPatterns" : [ {
+      "equalToJson" : "{\"clientName\": \"КИРИЛЛ ДМИТРИЕВИЧ РОМАНОВ\", \"contractDate\": \"2018-12-30\"}"
+    } ]
+  },
+  "response": {
+    "status": 500,
+    "body": "{\"status\": \"FAILED\",\"description\": \"Ошибка обработки\"}",
+    "headers": {
+      "Content-Type": "application/json"
+    }
+  }
+}
